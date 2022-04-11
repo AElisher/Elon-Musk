@@ -1,9 +1,19 @@
 body {
     margin: 0;
+    background-color: #e9ecef
 }
 img{
     width: 30%;
     height: 400px;
-    margin: 1.57%;
+    margin: 1.5%;
+    -o-object-fit: cover;
     object-fit: cover;
+    border: 1px solid black;
 }
+ nav{
+     text-transform: uppercase;
+     border-bottom: 2px solid black;
+     margin-left: 1.57%;
+     padding: 1.3rem 0;
+     font-family: 'Raleway', sans-serif;;
+ }
