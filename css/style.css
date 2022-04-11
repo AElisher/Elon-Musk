@@ -1,42 +1,45 @@
 body {
-    margin: 0;
-    background-color: #e9ecef
+  margin: 0;
+  background-color: #e9ecef;
 }
-img{
-    width: 30%;
-    height: 400px;
-    margin: 1.5%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    border: 1px solid black;
-    box-sizing: border-box;
+img {
+  width: 30%;
+  height: 400px;
+  margin: calc(10% / 6);
+  -o-object-fit: cover;
+  object-fit: cover;
+  border: 1px solid black;
+  box-sizing: border-box;
 }
-#nave{
-     text-transform: uppercase;
-     width: 30%;
-     border-bottom: 2px solid black;
-     margin-left: 1.57%;
-     padding: 1.3rem 0;
-     font-family: 'Raleway', sans-serif;
-     letter-spacing: 0.2rem;
-     display: inline-block;
+#nave {
+  text-transform: uppercase;
+  width: 30%;
+  border-bottom: 2px solid black;
+  margin-left: calc(10% / 6);
+  padding: 1.3rem 0;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.2rem;
+  display: inline-block;
 }
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
-#nave:hover{
-    border-bottom: 2px solid black;
-    box-shadow: 0 0.5em 0.5em -0.6em;
-    transform: translateY(-0.1rem);
-    transition: all 0.25s;
-    cursor: pointer;
+#nave:hover {
+  border-bottom: 2px solid black;
+  box-shadow: 0 0.5em 0.5em -0.6em;
+  transform: translateY(-0.1rem);
+  transition: all 0.25s;
+  cursor: pointer;
 }
-img:hover{
-    border:2.5px solid black;
-    cursor: pointer;
+img:hover {
+  border: 2.5px solid black;
+  cursor: pointer;
 }
 
 img:active {
-    border: 5px solid black;
+  border: 5px solid black;
+}
+section {
+  display: inline-block;
 }
